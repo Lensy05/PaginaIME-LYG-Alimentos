@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.2em;
+    font-family: font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    line-height: 80px;
+    display:inline-block;
+    width: 100%;
+    margin: 0;
+}
+#encabezado {
+    background-color: rgb(219, 25, 25);
+    color: white;
+    line-height: 50px;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+#logo {
+    margin: 10px auto;
+    display: block;
+}
+.nav {
+    display: flex;
+    line-height: 40px;
+    background: #ee1f1f;
+    padding: auto;
+}
+.nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    padding: 0 10px;
+    width: 9em;
+    border: 1px solid black;
+    text-align: center;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+}
+
+h1 {
+    line-height: 40px;
+    text-align: center;
+    color: #e00909f5;
+    font-size: 1.4em;
+    margin: 15px 0;
+}
+h2 {
+    text-align: center;
+    color: #324946;
+    font-size: 1.4em;
+    text-indent: 10px;
+    margin: 15px;
+}
+p {
+    text-align: justify; 
+    margin: 20px 10px;
+}
+hr {
+    margin: 18px 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+    width: 98%;
+}
+.servicios {
+    display: flexbox;
+    width: 400px;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid rgb(124, 124, 124);
+    
+}
+img {
+    justify-items: center;
+    margin: 20px;
+}
+
+.contactomapa{
+    display: flex;
+    margin: 0 8px;
+    padding: 0;
+    //line-height: 50px;
+    background-color: #ff0f0f;
+    color: rgb(0, 247, 255);
+}
+.titulosfooter{
+    font-weight: bold;
+
+}
+.footerend{
+    background-color: red;
+    display: flex; 
+    justify-content: space-around;
+    align-items: stretch;
+    list-style: none;
+
+}
+
+footer p {
+    text-align: center;
+    list-style: none;
+
+}
+
+.derechos p {
+        text-align: center ;
+}
